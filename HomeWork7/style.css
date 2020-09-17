@@ -1,0 +1,57 @@
+/*общие*/
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+  }
+/*тело*/
+.container {
+    width: 480px;
+    height: 260px;
+    margin: auto;
+    border: 5px;
+    background-color: #DCDCDC;
+  }
+/*название*/
+.title {
+    font-size: 13px;
+    color: gray;
+    width: 320px;
+    height: 12px;
+    text-align: left;
+    padding: 10px 0px 0px 10px;
+}
+/*все строчки*/
+.converterRows {
+    width: 320px;
+    height: 158px;
+}
+/*построчечная настройка*/
+.item {
+    width: 20px;
+    height: 32px;
+    margin: 0px 0px 0px 10px;
+}
+/*настройка конпки конвертирования*/
+/*в данный момент кнопки нету*/
+.btn_convert {
+    width: 120px;
+    height: 28px;
+}
+/*настройки импута*/
+.valInput {
+    width: 120px;
+    height: 28px;
+}
+.valOut {
+    width: 120px;
+    height: 32px;
+    border: 1px solid #000000;
+    text-align: center;
+    background-color: white;
+    vertical-align: center;
+}
+/*настройка селектора*/
+.valSelect {
+    width: 66px;
+    height: 34px;
+}

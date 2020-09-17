@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Work 5</title>
+    <link rel="stylesheet" href="style.css"></style>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+        <h1>Home Work 5
+            Проверка написания
+        </h1> 
+    
+<!-- button clear textarea one (left)-->
+    <button class="btn_clearLeft" onclick="btn_textOne_Clear()" >Clear 1</button>
+
+<!-- textarea one (left) -->
+    <textarea id ="TextOne" class="textareaOne" value ="tarOne" >  </textarea> 
+<!-- button clear textarea one-->
+    <button class="btn_convert" onclick="btnConvert()">Convert</button>
+<!-- button clear textarea two (right)-->
+    <button class="btn_clearRight" onclick="btn_textTwo_Clear()">Clear 2</button>
+    
+<!-- textarea two (right) -->
+    <output t id="TextTwo" class="textOutput" value=""></output>
+<!-- selector. chose color-->
+    <select id="ChooseColor" class="select_chooseColor" onclick="selectChooseColor()">
+    <option value=""selected hidden>Choose color</option>
+    <option value="black">black</option>
+    <option value="red">Red</option>
+    <option value="white">White</option>
+    <option value="blue">Blue</option>
+    </select>
+ 
+
+
+    <script src="homeWork5.js"></script>
+</body>
+</html>

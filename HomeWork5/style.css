@@ -1,0 +1,135 @@
+
+body {
+    background: rgb(32, 32, 32);
+    font-family: 'PT Serif', serif;
+    font-size: 20px;
+    line-height: 1.6;
+    color: #333333;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+
+ /* Button clear 1*/
+.btn_clearLeft {
+    position: relative;
+    top: -280px;
+    left: 20px;
+
+    display: inline-block;
+    padding: 10px 15px;
+    font-family: 'PT Serif', serif;
+    border: 2px;
+    
+    font-size: 17px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    background-color: rgb(32, 32, 32);
+    text-transform: uppercase;
+
+}
+/* Button clear 2*/
+.btn_clearRight {
+    position: relative;
+    top: -280px;
+    left: 20px;
+
+    display: inline-block;
+    padding: 10px 15px;
+    font-family: 'PT Serif', serif;
+    border: 2px;
+    
+    font-size: 17px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    background-color: rgb(32, 32, 32);
+    text-transform: uppercase;
+
+}
+
+.btn_convert {
+    position: relative;
+    top: -120px;
+    left: -28px;
+
+    display: inline-block;
+    padding: 10px 15px;
+    font-family: 'PT Serif', serif;
+    border: 2px;
+    
+    font-size: 17px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    background-color: rgb(32, 32, 32);
+    text-transform: uppercase;
+}
+ /* Select options */
+.select_chooseColor {
+    border: 2px;
+    position: relative;
+    top: -628px;
+    left: 660px;
+
+    display: inline-block;
+    padding: 13px 15px;
+    font-family: 'PT Serif', serif;
+    border: 2px;
+    
+    font-size: 17px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    background-color: rgb(32, 32, 32);
+    text-transform: uppercase;
+}
+
+.red {
+    color: rgb(209, 36, 36);
+}
+
+.blue {
+    color: rgb(39, 92, 214);
+}
+
+.white {
+    color: white;
+}
+
+.black{
+    color: black;
+}
+
+
+ /* Select options end */
+ 
+.textareaOne {
+    display: inline-block;
+    border: 2px;
+    position: relative;
+    top: 50px;
+    left: -83px;
+    font-size: 20px;
+    font-weight: 500;
+    resize: none;
+    width: 25%;
+    height: 300px;
+    font-family: 'PT Serif', serif;
+    color: black;
+}
+
+.textOutput {
+    display: block;
+    border: 5px;
+    position: relative;
+    top: -270px;
+    left: 540px;
+    font-size: 20px;
+    font-weight: 500;
+    resize: none;
+    width: 25%;
+    height: 300px;
+    font-family: 'PT Serif', serif;
+    background: rgb(255, 255, 255);
+
+}
